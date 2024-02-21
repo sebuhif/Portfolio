@@ -100,7 +100,7 @@ h1{
   font-size: 20px;
   font-weight: bold;
   border-bottom: 2px solid gray;
-  width: max-content
+  width: 100%;
 }
 .box1{
   display: flex;
