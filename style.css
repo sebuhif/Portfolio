@@ -45,7 +45,9 @@ table {
   margin: 0px;
   padding: 0px;
 }
-
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 header {
   border-bottom: 2px solid rgb(186, 184, 184);
   display: flex;
@@ -69,9 +71,7 @@ header {
   align-items: center;
   margin-right: 100px;
 }
-body{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
+
 .nav ul{
   display: flex;
   gap: 24px;
@@ -91,8 +91,8 @@ body{
   background-color: #d3d5d6;
 }
 section{
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
   width: 100%;
   gap: 20px;
 }
@@ -108,14 +108,14 @@ h1{
 }
 .box1{background-color: aliceblue;
   padding-top: 20px;
-  width: 70%;
+  width: 600px;
 }
 img{
+  width: 250px;
   float: left;
   margin-right: 10px;
 }
 .box2{
-  margin-left: 50px;
   font-weight: bold;
   font-size: 25px;
 }
