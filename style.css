@@ -85,13 +85,17 @@ body{
 
 
 .main{
-  width: 650px;
   height: 400px;
   margin: 30px 50px;
   padding: 10px 10px 10px 10px;
   background-color: #d3d5d6;
 }
-
+section{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
 h1{
   color: #097f94;
   height: 100px;
@@ -102,8 +106,16 @@ h1{
   border-bottom: 2px solid gray;
   width: 100%;
 }
-.box1{
-  display: flex;
-  justify-content:10px 10px 10px 10px;
+.box1{background-color: aliceblue;
   padding-top: 20px;
+  width: 70%;
+}
+img{
+  float: left;
+  margin-right: 10px;
+}
+.box2{
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 25px;
 }
